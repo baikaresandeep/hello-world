@@ -1,2 +1,7 @@
 # hello-world
-This is simple example git 
+
+Hello Guys,
+
+This is my first git repository to chekout how it works. 
+
+Thanks
