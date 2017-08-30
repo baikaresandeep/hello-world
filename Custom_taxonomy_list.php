@@ -1,7 +1,7 @@
 <?php
 
 /**
- * [custom_taxonomy_walker description]
+ * list the taxonomy of custom post type with tree structure
  * @param  string  $taxonomy  name of taxonomy
  * @param  integer $parent    parent term_id of term
  * @return string             generate the list of taxonomy
@@ -31,4 +31,4 @@
     }
 
 // Usage 
-echo  custom_taxonomy_walker( $taxonomy, $parent = 0 );
+    echo  custom_taxonomy_walker( $taxonomy, $parent = 0 );
