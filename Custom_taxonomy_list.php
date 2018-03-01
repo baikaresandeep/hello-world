@@ -30,5 +30,5 @@
         return;
     }
 
-// Usage 
+    // Usage of this function in your theme or plugin
     echo  custom_taxonomy_walker( $taxonomy, $parent = 0 );
