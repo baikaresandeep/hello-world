@@ -9,8 +9,7 @@
     function custom_taxonomy_walker( $taxonomy, $parent = 0 ){
         $terms = get_terms($taxonomy, array('parent' => $parent, 'hide_empty' => false, 'orderby'    => 'name'));
         //If there are terms, start displaying
-        if(count($terms) > 0)
-        {
+        if(count($terms) > 0){
             //Displaying as a list
             $out = "<ul>";
             //Cycle though the terms
